@@ -1,0 +1,13 @@
+name: ErrorWorld
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  errorworld:
+    description: Controls the ErrorWorld horror event.
+    usage: /errorworld <status|reset>
+    permission: errorworld.admin
+permissions:
+  errorworld.admin:
+    description: Allows control of the ErrorWorld event.
+    default: op
